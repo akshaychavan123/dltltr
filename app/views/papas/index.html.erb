@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Papas</h1>
+
+<div id="papas">
+  <% @papas.each do |papa| %>
+    <%= render papa %>
+    <p>
+      <%= link_to "Show this papa", papa %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New papa", new_papa_path %>

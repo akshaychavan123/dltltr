@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @papa %>
+
+<div>
+  <%= link_to "Edit this papa", edit_papa_path(@papa) %> |
+  <%= link_to "Back to papas", papas_path %>
+
+  <%= button_to "Destroy this papa", @papa, method: :delete %>
+</div>

@@ -1,0 +1,2 @@
+class Papa < ApplicationRecord
+end
