@@ -74,5 +74,16 @@ changes mmade in akki and let do resolve
 
   # Seed global randomization in this process using the `--seed` CLI option.
   Kernel.srand config.seed
+okkk lets do somethinggggggggggggggg
 
+
+
+
+
+
+
+
+
+
+end
 end
