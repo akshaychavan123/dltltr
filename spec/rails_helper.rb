@@ -72,7 +72,22 @@ let do some change in main
   config.mock_with :rspec do |mocks|
     mocks.verify_partial_doubles = true
   end
+change in ankdjkaj
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+end
   # Run specs in random order to surface order dependencies.
   config.order = :random
 
