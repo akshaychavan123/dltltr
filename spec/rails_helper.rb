@@ -59,8 +59,12 @@ RSpec.configure do |config|
 
   # Disable RSpec exposing methods globally on `Module` and `main`
   config.disable_monkey_patching!
+
 changes mmade in akki and let do resolve
   akshay anad simhggaa
+let do some change in main
+  and do in main
+
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
   end
@@ -68,7 +72,22 @@ changes mmade in akki and let do resolve
   config.mock_with :rspec do |mocks|
     mocks.verify_partial_doubles = true
   end
+change in ankdjkaj
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+end
   # Run specs in random order to surface order dependencies.
   config.order = :random
 
