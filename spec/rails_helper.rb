@@ -80,6 +80,6 @@ end
 
   # Seed global randomization in this process using the `--seed` CLI option.
   Kernel.srand config.seed
-
+no merger
 end
 akshay loves mrunal
