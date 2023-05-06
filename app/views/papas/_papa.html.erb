@@ -4,4 +4,11 @@
     <%= papa.name %>
   </p>
 
+  <p>
+  <strong>image:</strong>
+  <% if @papa.image.attached? %>
+  <%= image_tag papa.image %>
+  <% end %> 
+</p>
+
 </div>
