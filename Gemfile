@@ -8,6 +8,8 @@ gem "faker"
 gem "rspec-rails"
 gem "sassc-rails"
 gem "devise"
+gem 'active_model_serializers'
+
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"

@@ -8,6 +8,11 @@ class PapasController < ApplicationController
 
   # GET /papas/1 or /papas/1.json
   def show
+    if @papa.present?
+      render json: {data: @papa , status: :ok , message: "showed successfully"}
+    else
+      render json: {message: "data not found"}
+    end
   end
 
   # GET /papas/new
@@ -65,6 +70,6 @@ class PapasController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def papa_params
-      params.require(:papa).permit(:name)
+      params.require(:papa).permit(:name , :image)
     end
 end
